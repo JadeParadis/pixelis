@@ -31,7 +31,7 @@ body {
 
 /*===================================================================================================================================================
 
-                                                            CONTENT
+                                                            MISE EN PAGE
 
 ===================================================================================================================================================*/
 
@@ -55,5 +55,52 @@ header ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 
+    gap: 30px;
+    list-style: none;
 }
+
+/*---hero---*/
+
+.hero {
+   background: url('../images/HERO.png') no-repeat top center/cover;
+   
+}
+.contenu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(226, 82, 84, 0.9); 
+    width: 587px;
+}
+.hero .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    height: 650px;
+
+}
+/*===================================================================================================================================================
+
+                                                                FONTS & A
+
+===================================================================================================================================================*/
+
+/*---header---*/
+
+header a {
+    text-decoration: none;
+    font: 700 1.125rem "Jost", sans-serif;
+    color: #0A0908;
+}
+
+header .logo {
+    font: 700 2.625rem "Jost", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo span {
+    font-size: 2.5rem;
+}
+
